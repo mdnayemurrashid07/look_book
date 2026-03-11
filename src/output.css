@@ -261,6 +261,9 @@
   .aspect-700\/820 {
     aspect-ratio: 700/820;
   }
+  .aspect-auto {
+    aspect-ratio: auto;
+  }
   .aspect-video {
     aspect-ratio: var(--aspect-video);
   }
@@ -281,6 +284,21 @@
   }
   .w-2\/3 {
     width: calc(2 / 3 * 100%);
+  }
+  .w-2\/5 {
+    width: calc(2 / 5 * 100%);
+  }
+  .w-4 {
+    width: calc(var(--spacing) * 4);
+  }
+  .w-4\/5 {
+    width: calc(4 / 5 * 100%);
+  }
+  .w-12 {
+    width: calc(var(--spacing) * 12);
+  }
+  .w-22 {
+    width: calc(var(--spacing) * 22);
   }
   .w-full {
     width: 100%;
